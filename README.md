@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Cybersecurity Chatbot - nanoGPT
 
 A specialized GPT model trained on cybersecurity data to assist with ethical penetration testing, Linux commands, and network security analysis.
@@ -162,17 +162,3 @@ To add new training data:
 2. Run `python data/prepare_cybersecurity.py`
 3. Retrain with `python train.py training_configs/train_cybersecurity_enhanced.py`
 
-## 📜 License
-
-MIT License - See LICENSE file for details.
-
-## ⚠️ Legal Notice
-
-# cybersecurity-gpt
-i dont know i am still working on this when i figure out i will inform you
->>>>>>> b40373dc66991177b854a019e236cb7cf4df763f
-This tool is for educational and authorized testing purposes only. Always ensure you have permission before testing on any systems you don't own.
-=======
-# cybersecurity-gpt
-i dont know i am still working on this when i figure out i will inform you
->>>>>>> b40373dc66991177b854a019e236cb7cf4df763f
