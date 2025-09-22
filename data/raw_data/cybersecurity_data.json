@@ -1,0 +1,1685 @@
+{
+  "penetration_testing": [
+    {
+      "source": "https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/",
+      "content": "DNS Enumeration Kali - DNSRecon root:# dnsrecon -d TARGET -D /usr/share/wordlists/dnsmap.txt -t std --xml ouput.xml",
+      "type": "command"
+    }
+  ],
+  "linux_commands": [
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "All commands",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Toggle navigation",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "All-time Greats",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Hot this month",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "The Wicked",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "All commands (14,216)",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "the last day",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "the last week",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "the last month",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "all time",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "sorted by",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Enhanced Buffer in order to avoir mistakes with redirections that empty your files",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Race conditions: the check for writability then mv is not fully atomic â another process could create/remove/change the target between the test and mv.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Permissions and ownership: mv will preserve contents but the resulting file may have the temp files permissions/ownership (mktemp default).",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Signal safety: if interrupted (SIGINT, SIGTERM) the temp file may remain.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Better error messages and exit status handling.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Allow optional mode to write to stdout when no filename given.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Support setting desired file mode (umask or chmod) and preserve atomic replace semantics.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Enhanced version",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Uses safer existence test ([ -e ] not deprecated -a).",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Installs traps to clean up temp file on exit/signals.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Preserves mode of the existing file (if it exists) or allows a chmod option.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Attempts a safer atomic replace: write to temp in same directory as target when a filename is supplied (reduces window for cross-filesystem mv failure and preserves atomicity).",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "If no filename given, writes temp contents to stdout.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Returns non-zero on failure and prints concise errors to stderr.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2025-09-14 21:19:55",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Android VOLUME_DOWN",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "adb shell input keyevent KEYCODE_VOLUME_DOWN",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2025-08-13 13:22:00",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Extract one file from a remote tar.gz and put it where you want it",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This fetches ipfs v0.36.0 for GNU/LInux and puts it in /bin without a tmp file or anything else.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This works if you already have /bin.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Show Sample Output",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "$ tar -C /bin/ --strip-components=1 -xzf <( curl -L https://dist.ipfs.tech/kubo/v0.36.0/kubo_v0.36.0_linux-amd64.tar.gz ) kubo/ipfs",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Dload Upload Total Spent Left Speed",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "100 49.0M 100 49.0M 0 0 26.1M 0 0:00:01 0:00:01 --:--:-- 26.1M",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "tar --strip-components=1 -C /bin/ -xzf <( curl -L https://dist.ipfs.tech/kubo/v0.36.0/kubo_v0.36.0_linux-amd64.tar.gz ) kubo/ipfs",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2025-08-12 03:38:07",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "List memory percentage per user",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Show top 10 users by memory combined consumption in percentage.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Show Sample Output",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "user01 1.6",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "user02 2.8",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "user03 2.8",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "user04 3.2",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "user05 4.9",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "user06 5.5",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "user07 6.6",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "user08 13.6",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "user09 13.7",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "user10 16.5",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "ps aux | awk {arr[$1]+=$4}; END {for (i in arr) {print i,arr[i]}} | sort -hk2 | tail -10",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2025-08-01 07:06:55",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Display history of reboots",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "If you need to see a list of the reboots of your system with date and time stamps then on a Linux with systemd you can use (as non-root) the command:",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "journalctl --list-boots",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This could be useful if you are trying to track when a power outage occurred.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "An alternative is:",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Show Sample Output",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "$ journalctl --list-boots",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "IDX BOOT ID FIRST ENTRY LAST ENTRY",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "$ journalctl --list-boots # display tabular history of reboots",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2025-07-22 14:52:34",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Tapping screen for TikTok using shell script",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "while true; do input tap $(wm size | awk -F x {print $1/2   $2/2}); done",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2025-05-27 13:32:54",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Mount SMB v1 share on Linux",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "mount -t cifs -o username=administrator,password=xxx,vers=1.0,sec=ntlmv2 //192.168.0.30/nas_share /mnt/win_share",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2025-03-20 08:16:19",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Download and Extract mp3 from Youtube Video",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This will download a video when given the link and it will extract the audio from the video. The filename will be the same as the videos title. File extension in mp3.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 -o %(title)s.%(ext)s <youtube_link_here>",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-11-22 19:54:54",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Get a random quote from Breaking Bad",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Hit an API with curl returning a random quote, then parse the result with jq.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Show Sample Output",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "curl -s https://api.breakingbadquotes.xyz/v1/quotes | jq -r .[] | (.quote) -- (.author)",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-09-09 14:58:37",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Matrix - Just 1 wobbly line rather then a rain! (shorter)",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "No sample. Try it and see the magic!",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "while true; do printf e[32m%*se[0m $(tput cols) $(shuf -e {0..1} -n $(tput cols)); sleep 0.1; done",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-09-02 00:44:33",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Matrix - Just 1 wobbly line rather then a rain!",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Remove clear; sleep 5 and echo for not doing sample!",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-09-02 00:40:34",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This command will help you to hunt the current mysql query statement in real time. (-R is deprecated, using updated -Y)",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "tshark -s 512 -i eno1 -n -ftcp dst port 3306 -Y<mysql.query> -T fields -e <mysql.query>",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 19:29:05",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Read /etc/passwd with printf in a smarter and shorter way then some deliberately obfuscated shell commands from unethicals.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 19:20:48",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Portscan entire internet (ipv4)",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 19:14:02",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "In emergency situations, in order not to panic, shut down the following port on the network with the following rather then shutting down the PC.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "fuser -k 445/tcp",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 19:11:03",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Generate a correct mac addr.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Show Sample Output",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "od -An -N6 -tx1 /dev/urandom |sed -e s/ *// -e s/ */:/g -e s/:$// -e s/(.)[13579bdf]/10/",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 19:10:02",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Launch hidden commands.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 19:08:24",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Do we use: Wayland OR x11 (systemd version)",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "loginctl show-session $XDG_SESSION_ID -p Type",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 19:07:02",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Do we use: Wayland OR x11",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 19:06:32",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "View emerge log by date in humand friendly time",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "awk -F: {print strftime(%Y-%m-%d -> %X --> , $1),$2} /var/log/emerge.log",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 19:03:05",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Find the right intel-ucode firmware for Intel GPU",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "iucode_tool -S -l /lib/firmware/intel-ucode/*",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 19:01:55",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Disable Show More Options on Windows 11",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Enable it again: reg delete HKEY_CURRENT_USERSoftwareClassesCLSID{86ca1aa0-34aa-4e8b-a509-50c905bae2a2} /f",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Show Sample Output",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Successfully completed.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "reg add HKCUSoftwareClassesCLSID{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}InprocServer32 /f /ve",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 18:56:51",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Generate a QR code in the terminal",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 18:41:24",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Shuffle a reversed string without new lines (Simple way to create a progress bar)",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "while true; do slumpad_eversed=$(echo $eversed_part | grep -o . | shuf | tr -d n); tput cr && tput el && echo -n $r_part$slumpad_eversed ; sleep 1 ; done",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 18:37:43",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Shuffle two letters randomly",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Use variable: letters=(a b c d e f g h i j k l m n o p q r s t u v w x y z)",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "This is sample output - yours may be different.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "2024-08-26 18:36:29",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Submit alternative",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as malicious",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Report as a duplicate",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "1 2 3 > Last",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "That way others can gain from your CLI wisdom and you from theirs too. All commands can be commented on, discussed and",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "voted up or down.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Share Your Commands",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Check These Out",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Easily scp a file back to the host youre connecting from",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Display all readline binding that use CTRL",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Useful for getting to know the available keyboard shortcuts.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Get your current Public IP",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "search ubuntu packages to find which package contains the executable program programname",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "search ubuntus remote package source repositories for a specific program to see which package contains it",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Start a HTTP server which serves Python docs",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "I use this command to start a local Python document server over HTTP port 8888.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Find out if a module is installed in perl",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Shows the path if the module is installed or exit quietly (to simply avoid the No documentation found msg).",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Print just line 4 from a textfile",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Prints the 4th line and then quits. (Credit goes to flatcap in comments: http://www.commandlinefu.com/commands/view/6031/print-just-line-4-from-a-textfile#comment.)",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Extend a logical volume to use up all the free space in a volume group",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "List all duplicate directories",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Very quick! Based only on the content sizes and the character counts of filenames. If both numbers are equal then two (or more) directories seem to be most likely identical.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "if in doubt apply:",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "$ diff -rq path_to_dir1 path_to_dir2",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "AWK function taken from here:",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Stay in the loop",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Follow the Tweets.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Every new command is wrapped in a tweet and posted",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "to Twitter. Following the stream is a great way of staying abreast of the latest commands. For the more discerning,",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "there are Twitter accounts for commands that get a minimum of 3 and 10 votes - that way only the great commands get tweeted.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Subscribe to the feeds.",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Use your favourite RSS aggregator to stay in touch with the latest commands. There are feeds mirroring the 3 Twitter streams",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "as well as for virtually every other subset (users, tags, functions,):",
+      "type": "linux_command"
+    },
+    {
+      "source": "https://www.commandlinefu.com/commands/browse",
+      "content": "Subscribe to the feed for:",
+      "type": "linux_command"
+    }
+  ],
+  "nmap_commands": [
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "Examples | Nmap Network Scanning",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "Nmap Network ScanningChapter 15. Nmap Reference GuideExamplesPrevNextExamplesHere are some Nmap usage examples, from the simple and",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "scanme.nmap.org.",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "scanning via Nmap and not testing exploits or denial of service",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "target service is abused, it will be taken down and Nmap will",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "scanme.nmap.org. These permissions also apply to",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "the hosts scanme2.nmap.org,",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "scanme3.nmap.org, and so on, though those hosts",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "nmap -v scanme.nmap.org",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "scanme.nmap.org . The -v",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "nmap -sS -O scanme.nmap.org/24",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "nmap -sV -p 22,53,110,143,4564",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "nmap -v -iR 100000 -Pn -p 80",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "Asks Nmap to choose 100,000 hosts at random and scan them",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "nmap -Pn -p80 -oX logs/pb-port80scan.xml -oG",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "logs/pb-port80scan.gnmap 216.163.128.20/20",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "them) and saves the output in grepable and XML formats.PrevRuntime InteractionUpChapter 15. Nmap Reference GuideHomeNextNmap Book",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "Nmap Security Scanner",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "Nmap Announce",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://nmap.org/book/man-examples.html",
+      "content": "Nmap Public Source License",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap Cheat Sheet and Pro Tips | HackerTarget.com",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap Port Scanner",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Schedule Nmap Scans",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap Cheat Sheet",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap has a multitude of options, when you first start playing with this excellent tool, it can be a bit daunting.",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "In this cheat sheet, you will find a series of practical example commands for running Nmap and getting the most of this powerful tool.",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Keep in mind this cheat sheet merely touches the surface of the available options. The Nmap Documentation portal is your reference for digging deeper into the options available.",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap CSV Output",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap Target Selection",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap www.testhostname.com",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap 192.168.1.1-20",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap 192.168.1.0/24",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -iL list-of-ips.txt",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap Port Selection",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -p 22 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -p 1-100 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -F 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -p- 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap Port Scan types",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -sT 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -sS 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -sU -p 123,161,162 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -Pn -F 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Take a look at the Nmap Tutorial for a detailed look at the scan process.",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -A 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -sV 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -sV --version-intensity 5 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -sV --version-intensity 0 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap Output Formats",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -oN outputfile.txt 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -oX outputfile.xml 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -oG outputfile.txt 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -oA outputfile 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap Output to CSV",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap by default has no csv output format. Use the XML output to extract the relevant fields into csv with python.",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap XML to CSV",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -sV -sC 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap --script-help=ssl-heartbleed",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -sV -p 443 script=ssl-heartbleed.nse 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -sV --script=smb* 192.168.1.1",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "According to my Nmap install there are currently 581 NSE scripts. The scripts are able to perform a wide range of security related testing and discovery functions. If you are serious about your network scanning you really should take the time to get familiar with some of them.",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap sU A PN n pU:19,53,123,161 script=ntp-monlist,dns-recursion,snmp-sysdescr 192.168.1.0/24",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "UDP based DDOS reflection attacks are a common problem that network defenders come up against. This is a handy Nmap command that will scan a target list for systems with open UDP services that allow these attacks to take place. Full details of the command and the background can be found on the Sans Institute Blog where it was first posted.",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap --script=http-title 192.168.1.0/24",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap --script=http-headers 192.168.1.0/24",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap --script=http-enum 192.168.1.0/24",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap -sV -p 443 --script=ssl-heartbleed 192.168.1.0/24",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Heartbleed detection is one of the available SSL scripts. It will detect the presence of the well known Heartbleed vulnerability in SSL services. Specify alternative ports to test SSL on mail and other protocols (Requires Nmap 6.46).",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "nmap --script=asn-query,whois,ip-geolocation-maxmind 192.168.1.0/24",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Testing your network perimeter from an external perspective is key when you wish to get the most accurate results. By assessing your exposure from the attackers perspective you can validate firewall rule audits and understand exactly what is allowed into your network. This is the reason we offer a hosted or online version of the Nmap port scanner. To enable remote scanning easily and effectively because anyone who has played with shodan.io knows very well how badly people test their perimeter networks.",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "The above commands are just a taste of the power of Nmap. Check out our Nmap Tutorial that has more information and tips.",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "You could also view the full set of features by running Nmap with no options. The creator of Nmap, Fyodor, has a book available that covers the tool in depth.",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Nmap Dashboard with Grafana",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "Parse Nmap XML to get SSL Certificate details",
+      "type": "nmap_command"
+    },
+    {
+      "source": "https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/",
+      "content": "List all IPs in Subnet with Nmap",
+      "type": "nmap_command"
+    }
+  ],
+  "cybersecurity_guides": [],
+  "bash_scripts": []
+}

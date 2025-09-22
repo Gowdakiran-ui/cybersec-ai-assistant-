@@ -1,0 +1,1 @@
+DNS Enumeration Kali - DNSRecon root:# dnsrecon -d TARGET -D /usr/share/wordlists/dnsmap.txt -t std --xml ouput.xml

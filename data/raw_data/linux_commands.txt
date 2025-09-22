@@ -1,0 +1,258 @@
+All commands
+Toggle navigation
+All-time Greats
+Hot this month
+The Wicked
+All commands (14,216)
+the last day
+the last week
+the last month
+all time
+sorted by
+Enhanced Buffer in order to avoir mistakes with redirections that empty your files
+Race conditions: the check for writability then mv is not fully atomic â another process could create/remove/change the target between the test and mv.
+Permissions and ownership: mv will preserve contents but the resulting file may have the temp files permissions/ownership (mktemp default).
+Signal safety: if interrupted (SIGINT, SIGTERM) the temp file may remain.
+Better error messages and exit status handling.
+Allow optional mode to write to stdout when no filename given.
+Support setting desired file mode (umask or chmod) and preserve atomic replace semantics.
+Enhanced version
+Uses safer existence test ([ -e ] not deprecated -a).
+Installs traps to clean up temp file on exit/signals.
+Preserves mode of the existing file (if it exists) or allows a chmod option.
+Attempts a safer atomic replace: write to temp in same directory as target when a filename is supplied (reduces window for cross-filesystem mv failure and preserves atomicity).
+If no filename given, writes temp contents to stdout.
+Returns non-zero on failure and prints concise errors to stderr.
+This is sample output - yours may be different.
+2025-09-14 21:19:55
+Submit alternative
+Report as malicious
+Report as a duplicate
+Android VOLUME_DOWN
+This is sample output - yours may be different.
+adb shell input keyevent KEYCODE_VOLUME_DOWN
+2025-08-13 13:22:00
+Submit alternative
+Report as malicious
+Report as a duplicate
+Extract one file from a remote tar.gz and put it where you want it
+This fetches ipfs v0.36.0 for GNU/LInux and puts it in /bin without a tmp file or anything else.
+This works if you already have /bin.
+Show Sample Output
+This is sample output - yours may be different.
+$ tar -C /bin/ --strip-components=1 -xzf <( curl -L https://dist.ipfs.tech/kubo/v0.36.0/kubo_v0.36.0_linux-amd64.tar.gz ) kubo/ipfs
+Dload Upload Total Spent Left Speed
+100 49.0M 100 49.0M 0 0 26.1M 0 0:00:01 0:00:01 --:--:-- 26.1M
+tar --strip-components=1 -C /bin/ -xzf <( curl -L https://dist.ipfs.tech/kubo/v0.36.0/kubo_v0.36.0_linux-amd64.tar.gz ) kubo/ipfs
+2025-08-12 03:38:07
+Submit alternative
+Report as malicious
+Report as a duplicate
+List memory percentage per user
+Show top 10 users by memory combined consumption in percentage.
+Show Sample Output
+This is sample output - yours may be different.
+user01 1.6
+user02 2.8
+user03 2.8
+user04 3.2
+user05 4.9
+user06 5.5
+user07 6.6
+user08 13.6
+user09 13.7
+user10 16.5
+ps aux | awk {arr[$1]+=$4}; END {for (i in arr) {print i,arr[i]}} | sort -hk2 | tail -10
+2025-08-01 07:06:55
+Submit alternative
+Report as malicious
+Report as a duplicate
+Display history of reboots
+If you need to see a list of the reboots of your system with date and time stamps then on a Linux with systemd you can use (as non-root) the command:
+journalctl --list-boots
+This could be useful if you are trying to track when a power outage occurred.
+An alternative is:
+Show Sample Output
+This is sample output - yours may be different.
+$ journalctl --list-boots
+IDX BOOT ID FIRST ENTRY LAST ENTRY
+$ journalctl --list-boots # display tabular history of reboots
+2025-07-22 14:52:34
+Submit alternative
+Report as malicious
+Report as a duplicate
+Tapping screen for TikTok using shell script
+This is sample output - yours may be different.
+while true; do input tap $(wm size | awk -F x {print $1/2   $2/2}); done
+2025-05-27 13:32:54
+Submit alternative
+Report as malicious
+Report as a duplicate
+Mount SMB v1 share on Linux
+This is sample output - yours may be different.
+mount -t cifs -o username=administrator,password=xxx,vers=1.0,sec=ntlmv2 //192.168.0.30/nas_share /mnt/win_share
+2025-03-20 08:16:19
+Submit alternative
+Report as malicious
+Report as a duplicate
+Download and Extract mp3 from Youtube Video
+This will download a video when given the link and it will extract the audio from the video. The filename will be the same as the videos title. File extension in mp3.
+This is sample output - yours may be different.
+yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 -o %(title)s.%(ext)s <youtube_link_here>
+2024-11-22 19:54:54
+Submit alternative
+Report as malicious
+Report as a duplicate
+Get a random quote from Breaking Bad
+Hit an API with curl returning a random quote, then parse the result with jq.
+Show Sample Output
+This is sample output - yours may be different.
+curl -s https://api.breakingbadquotes.xyz/v1/quotes | jq -r .[] | (.quote) -- (.author)
+2024-09-09 14:58:37
+Submit alternative
+Report as malicious
+Report as a duplicate
+Matrix - Just 1 wobbly line rather then a rain! (shorter)
+No sample. Try it and see the magic!
+This is sample output - yours may be different.
+while true; do printf e[32m%*se[0m $(tput cols) $(shuf -e {0..1} -n $(tput cols)); sleep 0.1; done
+2024-09-02 00:44:33
+Submit alternative
+Report as malicious
+Report as a duplicate
+Matrix - Just 1 wobbly line rather then a rain!
+Remove clear; sleep 5 and echo for not doing sample!
+This is sample output - yours may be different.
+2024-09-02 00:40:34
+Submit alternative
+Report as malicious
+Report as a duplicate
+This command will help you to hunt the current mysql query statement in real time. (-R is deprecated, using updated -Y)
+This is sample output - yours may be different.
+tshark -s 512 -i eno1 -n -ftcp dst port 3306 -Y<mysql.query> -T fields -e <mysql.query>
+2024-08-26 19:29:05
+Submit alternative
+Report as malicious
+Report as a duplicate
+Read /etc/passwd with printf in a smarter and shorter way then some deliberately obfuscated shell commands from unethicals.
+This is sample output - yours may be different.
+2024-08-26 19:20:48
+Submit alternative
+Report as malicious
+Report as a duplicate
+Portscan entire internet (ipv4)
+This is sample output - yours may be different.
+2024-08-26 19:14:02
+Submit alternative
+Report as malicious
+Report as a duplicate
+In emergency situations, in order not to panic, shut down the following port on the network with the following rather then shutting down the PC.
+This is sample output - yours may be different.
+fuser -k 445/tcp
+2024-08-26 19:11:03
+Submit alternative
+Report as malicious
+Report as a duplicate
+Generate a correct mac addr.
+Show Sample Output
+This is sample output - yours may be different.
+od -An -N6 -tx1 /dev/urandom |sed -e s/ *// -e s/ */:/g -e s/:$// -e s/(.)[13579bdf]/10/
+2024-08-26 19:10:02
+Submit alternative
+Report as malicious
+Report as a duplicate
+Launch hidden commands.
+This is sample output - yours may be different.
+2024-08-26 19:08:24
+Submit alternative
+Report as malicious
+Report as a duplicate
+Do we use: Wayland OR x11 (systemd version)
+This is sample output - yours may be different.
+loginctl show-session $XDG_SESSION_ID -p Type
+2024-08-26 19:07:02
+Submit alternative
+Report as malicious
+Report as a duplicate
+Do we use: Wayland OR x11
+This is sample output - yours may be different.
+2024-08-26 19:06:32
+Submit alternative
+Report as malicious
+Report as a duplicate
+View emerge log by date in humand friendly time
+This is sample output - yours may be different.
+awk -F: {print strftime(%Y-%m-%d -> %X --> , $1),$2} /var/log/emerge.log
+2024-08-26 19:03:05
+Submit alternative
+Report as malicious
+Report as a duplicate
+Find the right intel-ucode firmware for Intel GPU
+This is sample output - yours may be different.
+iucode_tool -S -l /lib/firmware/intel-ucode/*
+2024-08-26 19:01:55
+Submit alternative
+Report as malicious
+Report as a duplicate
+Disable Show More Options on Windows 11
+Enable it again: reg delete HKEY_CURRENT_USERSoftwareClassesCLSID{86ca1aa0-34aa-4e8b-a509-50c905bae2a2} /f
+Show Sample Output
+This is sample output - yours may be different.
+Successfully completed.
+reg add HKCUSoftwareClassesCLSID{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}InprocServer32 /f /ve
+2024-08-26 18:56:51
+Submit alternative
+Report as malicious
+Report as a duplicate
+Generate a QR code in the terminal
+This is sample output - yours may be different.
+2024-08-26 18:41:24
+Submit alternative
+Report as malicious
+Report as a duplicate
+Shuffle a reversed string without new lines (Simple way to create a progress bar)
+This is sample output - yours may be different.
+while true; do slumpad_eversed=$(echo $eversed_part | grep -o . | shuf | tr -d n); tput cr && tput el && echo -n $r_part$slumpad_eversed ; sleep 1 ; done
+2024-08-26 18:37:43
+Submit alternative
+Report as malicious
+Report as a duplicate
+Shuffle two letters randomly
+Use variable: letters=(a b c d e f g h i j k l m n o p q r s t u v w x y z)
+This is sample output - yours may be different.
+2024-08-26 18:36:29
+Submit alternative
+Report as malicious
+Report as a duplicate
+1 2 3 > Last
+That way others can gain from your CLI wisdom and you from theirs too. All commands can be commented on, discussed and
+voted up or down.
+Share Your Commands
+Check These Out
+Easily scp a file back to the host youre connecting from
+Display all readline binding that use CTRL
+Useful for getting to know the available keyboard shortcuts.
+Get your current Public IP
+search ubuntu packages to find which package contains the executable program programname
+search ubuntus remote package source repositories for a specific program to see which package contains it
+Start a HTTP server which serves Python docs
+I use this command to start a local Python document server over HTTP port 8888.
+Find out if a module is installed in perl
+Shows the path if the module is installed or exit quietly (to simply avoid the No documentation found msg).
+Print just line 4 from a textfile
+Prints the 4th line and then quits. (Credit goes to flatcap in comments: http://www.commandlinefu.com/commands/view/6031/print-just-line-4-from-a-textfile#comment.)
+Extend a logical volume to use up all the free space in a volume group
+List all duplicate directories
+Very quick! Based only on the content sizes and the character counts of filenames. If both numbers are equal then two (or more) directories seem to be most likely identical.
+if in doubt apply:
+$ diff -rq path_to_dir1 path_to_dir2
+AWK function taken from here:
+Stay in the loop
+Follow the Tweets.
+Every new command is wrapped in a tweet and posted
+to Twitter. Following the stream is a great way of staying abreast of the latest commands. For the more discerning,
+there are Twitter accounts for commands that get a minimum of 3 and 10 votes - that way only the great commands get tweeted.
+Subscribe to the feeds.
+Use your favourite RSS aggregator to stay in touch with the latest commands. There are feeds mirroring the 3 Twitter streams
+as well as for virtually every other subset (users, tags, functions,):
+Subscribe to the feed for:

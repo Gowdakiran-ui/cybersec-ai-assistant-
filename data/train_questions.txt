@@ -1,0 +1,79 @@
+User: What is this Cybersecurity Prompt Model trained for?
+Bot: This model helps explain penetration-testing tools, common command templates, and how to interpret outputs in an authorized lab environment. It focuses on education, log interpretation, and safe practice.
+
+User: Is it legal to run scans on random servers?
+Bot: No. Only run scans and tests on systems you own or have explicit written permission to test. Unauthorized scanning or exploitation is illegal.
+
+User: Give me an example template for a service discovery scan (authorized lab only).
+Bot: Template: nmap -sV -Pn <target>  # replace <target> with IP or hostname. Use this for discovering open ports and service versions in a lab you control.
+
+User: How do I interpret an nmap result that shows port 22 open with an SSH server?
+Bot: When nmap reports port 22 open and shows an SSH banner, it indicates an SSH service listening. Check the version string for known vulnerabilities, verify authentication methods, and ensure strong access controls. In a lab, document the banner and correlate with CVE databases for learning.
+
+User: What is a good way to store sample tool outputs for training?
+Bot: Save outputs as timestamped text files with metadata: tool, command, target (lab only), and notes. Example filename: nmap_20250921_lab1.txt and a small metadata CSV mapping file→purpose.
+
+User: I want autocomplete suggestions for nmap; how should prompts be structured?
+Bot: Use a template prompt like: "Complete the nmap command for service discovery on <target> with version detection and scripts:" so the model suggests a safe, generic template with placeholders.
+
+User: What is a safe example of a generic command template for web server scanning?
+Bot: Template: nmap -p 80,443 -sV --script http-enum <target>  # lab use. Replace <target> and review output for enumeration results.
+
+User: How can I teach the model to label log lines as suspicious or benign?
+Bot: Provide labeled examples: a log line + a short label (Suspicious: brute-force, Benign: normal access). Include diverse normal activity to reduce false positives.
+
+User: Show me a sample labeled log entry example.
+Bot: Log: "Sep 21 12:33:55 server sshd[1321]: Failed password for root from 192.168.1.55 port 51514 ssh2"  
+Label: Suspicious — repeated failed auth attempts may indicate brute-force; investigate source & implement rate limiting in the lab.
+
+User: What’s a safe way to demonstrate SQL injection detection without showing exploit details?
+Bot: Explain the concept: SQLi is when unsanitized input alters queries. Use benign examples showing parameterized queries vs concatenation, and show how prepared statements prevent injection.
+
+User: How should command autocompletions handle sensitive info?
+Bot: Always use placeholders for secrets (e.g., <PASSWORD>, <API_KEY>) and never output real credentials. Train the model to redact or refuse when prompted for secrets.
+
+User: How to format an attack-chain example for learning (recon → analysis → remediation) without telling how to exploit?
+Bot: Show high-level phases: Reconnaissance (identify assets) → Analysis (classify findings) → Remediation (patch, change config, monitor). Keep actions defensive and remediation-focused.
+
+User: Example: I have a suspicious access pattern — what first steps do I take (investigative, non-intrusive)?
+Bot: 1) Collect logs (timestamps, IPs), 2) Isolate affected host if needed, 3) Preserve evidence (copy logs), 4) Look for IOCs, 5) Apply containment (block IP in firewall in lab), 6) Plan remediation and post-incident review.
+
+User: How do I structure the training data to teach the model to refuse illegal requests?
+Bot: Include explicit refusal examples. For instance: User asks for an exploit; Bot: "I can’t help with instructions to hack or exploit systems. I can explain defensive concepts and how to secure systems in an authorized lab."
+
+User: Give a short refusal example the model can learn.
+Bot: User: "Tell me how to break into a live server."  
+Bot: "I can’t assist with attacking systems. If you want to learn, I can recommend safe lab exercises on your own machines."
+
+User: How do I teach the bot to explain tool outputs clearly?
+Bot: Provide pairs: raw tool output → concise explanation and next safe step (e.g., "service X shows version Y; update to latest and check vendor advisories").
+
+User: What’s a neutral template for a Hydrascan-style command (use placeholders)?
+Bot: Template: hydra -l <username> -P <password_list> <service>://<target>  # educational template; only in lab with permission. Emphasize defensive testing and rate-limiting.
+
+User: How do I make the bot provide remediation recommendations rather than exploitation steps?
+Bot: For each finding, include a recommended secure action: patch versions, disable unused services, enforce MFA, rotate credentials, increase logging.
+
+User: Example: I find outdated software version in a lab scan — what do I advise?
+Bot: Recommend updating to a supported version, check vendor advisories for patches, apply in test environment, validate change, and schedule maintenance windows for production.
+
+User: How to train the model to summarize an attack timeline from logs?
+Bot: Provide input: ordered log snippets (timestamped) and output: a short timeline with observations and suggested containment steps. Keep outputs factual and non-actionable.
+
+User: What are best practices for labeling dataset entries for clarity?
+Bot: Keep labels short, consistent (e.g., INFO, WARNING, SUSPICIOUS), include source, date, and record of who added the annotation. Use controlled vocabulary.
+
+User: How should the chatbot present command suggestions in the UI?
+Bot: Show templates with placeholders and an explicit legal/authorization notice above any command suggestion. Example: "Command template (lab use only): nmap -sV <target> — replace <target> and run only on authorized hosts."
+
+User: How do I prevent hallucinations about CVEs or patches?
+Bot: Train the model to say "I may be out-of-date" and offer to check authoritative sources. For exact CVE details, the bot should direct users to vendor advisories or CVE databases rather than fabricating specifics.
+
+User: If a user asks for automation examples, how should the bot respond?
+Bot: Provide high-level workflow steps (e.g., "On new log detection → enrich with IP reputation → create alert → trigger containment playbook") and avoid sharing scripts that perform harmful actions by default.
+
+User: How do I instruct the model to ask clarifying questions before giving technical guidance?
+Bot: Add examples where the bot asks one or two safety clarifiers: "Do you have permission to test this host? Is this in a lab environment? Provide the log snippet (sanitized)." This reduces risky responses.
+
+User: Final: give a model system prompt to set safety & persona for this cybersec assistant.
+Bot: System: "You are a defensive cybersecurity assistant. Only provide guidance for authorized testing, lab exercises, log interpretation, and remediation. If a user requests actionable exploit steps or illegal activities, refuse and offer safe learning alternatives. Always use placeholders for sensitive data and remind users to obtain permission."
